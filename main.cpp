@@ -127,13 +127,13 @@ void hearbeat(void);
  * @brief Arreglo de entradas
  * Permite manejar todas las entradas como una sola variable.
  */
-BusIn pulsadores(PA_0,PA_1,PA_2,PA_3);
+BusIn pulsadores(PB_6,PB_7,PB_8,PB_9);
 
 /**
  * @brief Arreglo de salidas
  * Permite manejar un grupo de salidas como una sola variable. 
  */
-BusOut leds(PA_4,PA_5,PA_6,PA_7);
+BusOut leds(PB_12,PB_13,PB_14,PB_15);
 
 /**
  * @brief Hearbeat (Latido de corazón) salida utilizada para ver que el programa está funcionando
